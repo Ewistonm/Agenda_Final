@@ -1,0 +1,168 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    color: #212529;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#header {
+    background-color: #343a40;
+    color: #ffffff;
+    padding: 20px 0;
+    text-align: center;
+    flex-shrink: 0;
+}
+
+#content {
+    display: flex;
+    flex: 1;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: flex-start;
+    margin: 20px;
+}
+
+#nav {
+    position: relative;
+    width: 200px;
+    height:auto;
+    background-color: #495057;
+    color: #ffffff;
+    padding: 20px;
+    margin-right: 20px;
+    border-radius: 8px;
+
+}
+
+#nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#nav ul li {
+    margin-bottom: 10px;
+}
+
+#nav ul li a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: bold;
+    display: block;
+    padding: 10px;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+#nav ul li a:hover {
+    background-color: #6c757d;
+}
+
+#main {
+    flex: 1;
+    min-width: 0;
+    max-width: 800px;
+    width: 100%;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table, th, td {
+    border: 1px solid #dee2e6;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+}
+
+th {
+    background-color: #f1f1f1;
+}
+
+tr:nth-child(even) {
+    background-color: #f9f9f9;
+}
+
+button {
+    background-color: #343a40;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: #495057;
+}
+
+.container {
+    display: flex;
+}
+
+a {
+    margin-right: 20px; /* Espaçamento entre os links */
+    margin: auto;
+}
+
+form {
+    max-width: 600px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+form table {
+    width: 100%;
+}
+
+form td {
+    padding: 10px 0;
+}
+
+form input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ced4da;
+    border-radius: 4px;
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+
+footer {
+    
+    background-color: #010204;
+    color: #ffffff;
+    display: flex;
+    justify-content:space-between;
+    position: relative;
+    bottom: 0;
+    width: 102%;
+    margin: 5px 10px 15px 0px;
+    padding: 10px;
+    flex-shrink: 0;
+}
+
+#tag {
+    flex: 1;
+    text-align: right;
+}
