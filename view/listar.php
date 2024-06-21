@@ -1,5 +1,5 @@
 <?php require_once 'view/layout/header.php'; ?>
-
+    <h2>Lista de Contato</h2>
         <table>
             <thead>
                 <th>Nome</th>

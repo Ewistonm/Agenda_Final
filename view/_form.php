@@ -2,7 +2,7 @@
     <table>
         <tbody>
             <tr>
-                <td>Nomex</td>
+                <td>Nome</td>
                 <td><input type="text" name="nome" value="<?= $contato['nome'] ?? '' ?>"></td>
             </tr>
             <tr>
