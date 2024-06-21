@@ -23,7 +23,7 @@ switch ($acao) {
             $contatosController->mostrar($id);
         } else {
             // Lida com o caso onde o id não é fornecido
-            echo "ID não fornecido.";
+            echo "Página em Contrução";
         }
         break;
     case 'deletar':
@@ -33,6 +33,7 @@ switch ($acao) {
         } else {
             // Lida com o caso onde o id não é fornecido
             echo "ID não fornecido.";
+            
         }
         break;
     default:

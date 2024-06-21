@@ -12,6 +12,7 @@
             <ul>
                 <li><a href="index.php">Listar Contatos</a></li>
                 <li><a href="index.php?acao=adicionar">Adicionar Contato</a></li>
+                <li><a href="index.php?acao=mostrar">Buscar Contatos</a></li>
             </ul>
         </div>
         <div id="main">
