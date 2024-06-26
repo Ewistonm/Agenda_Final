@@ -48,7 +48,7 @@ class Database
 
     public function list()
     {
-        $sql = "select * from contatos";
+        $sql = "select * from contatos ORDER BY nome";
         $query = $this->query($sql);
         $this->num_rows = $query->num_rows;
         return mysqli_fetch_all($query, MYSQLI_ASSOC);

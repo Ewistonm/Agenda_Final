@@ -17,13 +17,14 @@ switch ($acao) {
             echo "ID não fornecido.";
         }
         break;
-    case 'mostrar':
-        if (isset($_GET['id'])) {
-            $id = $_GET['id'];
-            $contatosController->mostrar($id);
-        } else {
-            // Lida com o caso onde o id não é fornecido
-            echo "Página em Contrução";
+    case 'mostrar':{
+        //if (isset($_GET['id'])) {
+        //    $id = $_GET['id'];
+        //    $contatosController->mostrar($id);
+        //} else {
+        //    // Lida com o caso onde o id não é fornecido
+        //    echo "Página em Contrução";
+            require_once 'view/mostrar.php';
         }
         break;
     case 'deletar':
